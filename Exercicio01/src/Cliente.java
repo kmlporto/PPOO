@@ -1,7 +1,7 @@
 import Aplicativos.Aplicativo;
-import Aplicativos.AplicativoFactory;
-import Arquivo.Arquivo;
-import Arquivo.ArquivoBuilder;
+import gof.AplicativoFactory;
+import gof.ArquivoBuilder;
+import models.Arquivo;
 
 public class Cliente {
 	public static void main(String[] args) {
