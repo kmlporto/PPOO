@@ -1,8 +1,8 @@
-package Aplicativos;
+package PackageMicrosoft;
 
-import PackageMicrosoft.Excel;
-import PackageMicrosoft.PowerPoint;
-import PackageMicrosoft.Word;
+import Aplicativos.EditorApresentacao;
+import Aplicativos.EditorPlanilha;
+import Aplicativos.EditorTexto;
 import gof.Factory;
 
 public class MicrosoftFactory implements Factory {

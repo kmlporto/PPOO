@@ -1,4 +1,4 @@
-package Arquivo;
+package models;
 
 public class Arquivo {
 	private String nome, path, data, hora, proprietario, email;

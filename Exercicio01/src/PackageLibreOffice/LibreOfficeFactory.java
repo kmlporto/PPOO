@@ -1,8 +1,8 @@
-package Aplicativos;
+package PackageLibreOffice;
 
-import PackageLibreOffice.Calc;
-import PackageLibreOffice.Impress;
-import PackageLibreOffice.Office;
+import Aplicativos.EditorApresentacao;
+import Aplicativos.EditorPlanilha;
+import Aplicativos.EditorTexto;
 import gof.Factory;
 
 public class LibreOfficeFactory implements Factory {

@@ -1,6 +1,8 @@
-package Aplicativos;
+package gof;
 
-import gof.Factory;
+import Aplicativos.Aplicativo;
+import PackageLibreOffice.LibreOfficeFactory;
+import PackageMicrosoft.MicrosoftFactory;
 
 public class AplicativoFactory {
 	public static Factory getFactory(Aplicativo aplicativo){

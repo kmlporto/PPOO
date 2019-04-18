@@ -1,6 +1,6 @@
-package Arquivo;
+package gof;
 
-import gof.Builder;
+import models.Arquivo;
 
 public class ArquivoBuilder implements Builder<Arquivo>{
 	private String nome, path, data, hora, proprietario, email;
